@@ -7,6 +7,22 @@ configserver:
   name: Dukang Registry config server
   status: Connected to the Dukang Registry config server, using https://github.com/eanfs/dukang-registry-sample-config.git !
 
+dukang-workflow.fegin.name: dukang-workflow
+workflow.fegin.name: martini
+muscat.fegin.name: muscat
+leave.fegin.name: dukang-leave
+employee.fegin.name: dukang-employee
+dukang-cocktails.fegin.name: dukang-cocktails
+drools.fegin.name: dukang-drools
+grappa.fegin.name: grappa
+claim.fegin.name: dukang-claim
+erdinger.fegin.name: dukang-leave
+tequila.fegin.name: dukang-user
+authority.feign.name: dukang-authority
+payroll.fegin.name: dukang-payroll
+workforce.fegin.name: dukang-workforce
+transfer.fegin.name: dukang-transfer
+
 # Default JWT secret token (to be changed in production!)
 jhipster:
   security:
