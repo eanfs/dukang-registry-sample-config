@@ -30,6 +30,16 @@ jhipster:
       jwt:
         secret: bXktc2VjcmV0LXRva2VuLXRvLWNoYW5nZS1pbi1wcm9kdWN0aW9uLWFuZC10by1rZWVwLWluLWEtc2VjdXJlLXBsYWNl
 
+spring: 
+  redis:
+    database: 11
+    host: workio-dev.redis.rds.aliyuncs.com
+    port: 6379
+    password: 1q2w%&$sdwQ2
+  sleuth:
+    sampler:
+      percentage: 0.1  # 采样百分比，我这里配置了百分之百，
+
 rabbitmq:
   host: rabbitmq
   port: 5672
