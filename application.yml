@@ -39,14 +39,13 @@ spring:
   sleuth:
     sampler:
       percentage: 0.1  # 采样百分比，我这里配置了百分之百，
-
-rabbitmq:
-  host: rabbitmq
-  port: 5672
-  username: admin
-  password: admin
-  publisher-confirms: true
-  virtual-host: /
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: admin
+    password: admin
+    publisher-confirms: true
+    virtual-host: /
 
 management:
   security:
